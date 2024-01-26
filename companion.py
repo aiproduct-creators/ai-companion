@@ -1,11 +1,8 @@
 import os
-from dotenv import load_dotenv
 import openai
 import streamlit as st
 from config import SYSTEM_PROMPT
 
-# Load OpenAI API key from your .env file
-load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Use CSS to add custom styles to your UI
