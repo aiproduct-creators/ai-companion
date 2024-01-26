@@ -41,7 +41,7 @@ To run this application, you need to have Python 3.8 or higher and Streamlit ins
     ```
 - Run the streamlit app:
     ```
-    streamlit run app.py
+    streamlit run companion.py
     ```
     Open your browser and go to http://localhost:8501 to see the app
 
@@ -72,6 +72,6 @@ git clone https://github.com/aiproduct-creators/ai-companion.git
     ```
 - Run the streamlit app:
     ```
-    streamlit run app.py
+    streamlit run companion.py
     ```
 Open your browser and go to http://localhost:8501 to see the app
